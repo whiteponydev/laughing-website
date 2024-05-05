@@ -14,7 +14,7 @@ enter.addEventListener('click', () => {
         console.log(h);
         console.log(m);
 
-        if (h === 15 && m === 44){
+        if (h === 13 && m === 0){
             const laugh = document.createElement('audio');
             laugh.src = 'sounds/laughing.wav';
             laugh.type = 'audio/wav';
